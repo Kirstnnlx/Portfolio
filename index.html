@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirsten Roan A. Dumlao Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #F4A1C1, #FFFFFF); 
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .logo {
+            border: 2px solid #800080; 
+            color: #800080; 
+            font-size: 1.5rem; 
+            font-weight: bold;
+            padding: 8px 20px; 
+            border-radius: 30px; 
+            width: fit-content;
+            margin: 20px; 
+            text-transform: uppercase;
+            position: absolute; 
+            top: 20px; 
+            left: 20px; 
+        }
+
+        header.hero {
+            background: linear-gradient(135deg, #ff69b4, #800080);
+            padding: 2rem;
+            color: white;
+            border-radius: 10px;
+            margin: 2rem auto;
+            max-width: 800px;
+            display: flex; 
+            align-items: center; 
+        }
+
+        img.profile {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-right: 20px; 
+            border: 5px solid white; 
+        }
+
+        header.hero .text {
+            text-align: left;
+        }
+
+        header.hero h1 {
+            font-size: 2.5rem;
+            margin: 0.5rem 0;
+        }
+
+        header.hero p {
+            margin: 0.3rem 0;
+        }
+
+        nav {
+            background-color: #fff;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #ff69b4;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #800080;
+        }
+
+        section {
+            margin: 3rem auto;
+            padding: 2rem;
+            max-width: 800px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #ff69b4;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style-type: disc; 
+            padding-left: 20px; 
+        }
+
+        ul li {
+            margin: 0.5rem 0;
+            font-size: 1.1rem;
+            text-align: left;
+        }
+
+        a {
+            color: #ff69b4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .skill-description {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 0.5rem;
+        }
+
+        footer {
+            background-color: #f8f8f8;
+            color: #333;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            header.hero h1 {
+                font-size: 2rem;
+            }
+
+            nav a {
+                font-size: 0.9rem;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+
+            header.hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            img.profile {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo">K.D.</div>
+
+    <header class="hero">
+        <img src="profile.jpg" alt="Photo of Kirsten Roan A. Dumlao" class="profile">
+        
+        <div class="text">
+            <h1>Kirsten Roan A. Dumlao</h1>
+			<p>Batangas State University - The National Engineering University</p>
+            <p>1st Year BS Computer Science Student</p>
+            <p>Section: CS-1104</p>
+            <p>Passionate about Cybersecurity, UI/UX Design, and Software Development.</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I’m Kirsten Roan Dumlao, an aspiring software engineer currently studying Computer Science. I’m someone who’s always eager to learn and grow, and I love diving into new things every day. My curiosity started with my love for reading, especially digital books, which made me wonder how websites are built and how they work. This led me to explore both front-end and back-end development, and it got me really excited about programming and software development. I’m looking forward to learning more, discovering new areas of computer science, and continuing to grow my skills as I go along in this journey.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills & Expertise</h2>
+        <p>I am currently learning and working with the following languages:</p>
+        <ul>
+            <li>C++</li>
+            <li>HTML and CSS</li>
+            <li>Python</li>
+        </ul>
+        <p>Other skills:</p>
+        <ul>
+            <li>
+                Attention to Detail
+                <div class="skill-description">I pay close attention to every detail to make sure everything I do is accurate and well done.</div>
+            </li>
+            <li>
+                Strong Communication Skills
+                <div class="skill-description">I make sure to express my ideas clearly and work well with others to reach our goals.</div>
+            </li>
+            <li>
+                Critical Thinking
+                <div class="skill-description">I try to look at problems from different angles to come up with the best solutions.</div>
+            </li>
+            <li>
+                Committed to Continuous Learning
+                <div class="skill-description">I'm always excited to learn new things and stay updated with what's happening in my field.</div>
+            </li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Project Showcase</h2>
+        <p>Here are some of the projects I have worked on:</p>
+        <ul>
+            <li>
+                <strong>Planner or Simple Calendar System</strong> - This project was created for the course: Computer Programming. 
+                I created this system to help manage tasks and activities for both academic and personal use.
+                <br>
+                <a href="https://github.com/KirstenRoan/Planner-Calendar-System.git" target="_blank">View Repository</a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:24-06924@g.batstate-u.edu.ph">24-06924@g.batstate-u.edu.ph</a></p>
+        <p>GitHub: <a href="https://github.com/KirstenRoan" target="_blank">github.com/KirstenRoan</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kirsten Roan A. Dumlao. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
